@@ -27,7 +27,8 @@ Pour faire fonctionner ce conteneur, vous devez installer docker.
 2. Installer le package
 
         cd TPGit
-        docker-compose build
+        docker-compose up -d
+        docker-compose exec php bash -c "cd sf4;composer install"
 
     Cela prendra quelques minutes.
 
