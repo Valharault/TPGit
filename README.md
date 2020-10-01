@@ -47,3 +47,4 @@ Pour faire fonctionner ce conteneur, vous devez installer docker.
 6. Une fois que tout a démarré, vous devriez pouvoir accéder à la webapp via [http://localhost/](http://localhost/) sur votre machine hôte.
 
         open http://localhost/
+
