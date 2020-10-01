@@ -5,15 +5,15 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class UserController extends AbstractController
+class SecurityController extends AbstractController
 {
     /**
-     * @Route("/user", name="user")
+     * @Route("/security", name="security")
      */
     public function index()
     {
-        return $this->render('user/index.html.twig', [
-            'controller_name' => 'UserController',
+        return $this->render('security/index.html.twig', [
+            'controller_name' => 'SecurityController',
         ]);
     }
 }
